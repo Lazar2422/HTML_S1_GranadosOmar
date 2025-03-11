@@ -1,0 +1,19 @@
+.cuerpo {
+    border: 10px solid green;
+    margin: 0;
+    padding: 20px;
+}
+
+.cuerpo h1 {
+    text-align: center;
+}
+
+.imagen {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 100px;
+}
