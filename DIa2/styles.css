@@ -1,7 +1,7 @@
 body {
     border: 10px solid black;
     padding: 20px;
-    width: 40%;
+    width: 60%;
     justify-content: center;
 }
 
@@ -61,4 +61,5 @@ body {
 }
 .parrafo {
     text-align: justify;
+    padding: 10px;
 }
