@@ -1,0 +1,65 @@
+body {
+    border: 10px solid black;
+    padding: 20px;
+    justify-content: center;
+    width: 50%;
+}
+
+.cuerpo h1 {
+    justify-content: center;
+    text-align: center;
+    color: black;
+    position: relative;
+}
+.main {
+    display: flex;
+    gap: 30px;
+}
+.imagen {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 6px solid black;
+    margin-left: 20px;
+}
+.informacion {
+    text-align: center;
+    border: 6px solid black;
+    padding: 10px;
+}
+
+.academica {
+    border: 6px solid black;
+    text-align: center;
+}
+.habilidades {
+    border: 6px solid black;
+    border-top: 1px solid black;
+    text-align: center;
+}
+.proyecto {
+    border: 6px solid black;
+    text-align: center;
+}
+.pre,
+.pre2,
+.pre3,
+.pre4 {
+    white-space: pre-line;
+    text-align: center;
+    padding: 10px;
+}
+.diploma {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    border: 6px solid black;
+    border-top: 1px solid black;
+    padding: 21px;
+    max-width: 200px;
+}
+.parrafo {
+    text-align: justify;
+    padding: 10px;
+}
