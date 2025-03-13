@@ -22,15 +22,8 @@ td {
 .izquierda {
     justify-content: center;
     align-items: center;
-    text-align: center;
-}
-.columna1 {
-    justify-content: center;
-    text-align: center;
-    border: 5px solid black;
 }
 .medio {
-    margin-top: 2px;
     border: 5px solid black;
     text-align: center;
 }
@@ -39,19 +32,16 @@ td {
     border: 5px solid black;
     text-align: center;
 }
-
+.izquierda1 {
+    text-align: center;
+    border: 5px solid black;
+}
 .imagen1 {
     width: 100%;
     height: 100%;
     border-radius: 50%;
     border: 5px solid black;
     align-items: center;
-}
-
-.parrafo {
-    text-align: center;
-    white-space: pre-line;
-    word-wrap: break-word;
 }
 .imagen2 {
     border: 5px solid black;
@@ -61,18 +51,13 @@ td {
     align-items: center;
 }
 
-.habilidades {
+.parrafo {
     text-align: center;
-    border: 5px solid black;
+    white-space: pre-line;
+    word-wrap: break-word;
 }
 .parrafo2 {
     text-align: justify;
     white-space: pre-line;
     word-wrap: break-word;
-}
-.izquierda1 {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border: 5px solid black;
 }

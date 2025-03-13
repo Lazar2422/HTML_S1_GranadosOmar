@@ -1,45 +1,29 @@
-# Título
-Esta de una decripción
+# Día 3
+A continuación se detallarán los archivos realizados en el día 3 de HTML/CSS
 
 ## Tabla de contenidos
-| Indice | Titulo  |
-|--|--|
-| 1 | Sección 1 |
-| 2 | Sección 2 |
-| 3 | Sección 3 |
-| 4 | Sección 4 |
-| 5 | Sección 5 |
+| 1 | [Archivo html](index.html) |
+| 2 | [Hoja de estilos CSS](styles/styles.css) |
+| 3 | [Imágenes utilizadas](imagenes/) |
 
 ### Instalaciones 
-Deberas ejecutar este comando para descargar 
+Debes descargar los archivos con git pull o git clone en una carpeta y ejecutarlo en tu editor de código, en mi caso utilicé visual studio code.
 
-```bash
-sudo apt install app
-```
+## Explicación archivo html
 
-### Como se juega 
-![imagen gato](./gato.png)
+Al principio escribí html:5 para acceder a la documentación base de html, seguido de esto le asigné los estilos con:
+    <link rel="stylesheet" href="styles/styles.css">
+En este caso la parte de rel es por defecto stylesheet y en href se escribe la ubicación del archivo donde aplicaremos los estilos CSS.
 
-### Sección 
-- Ítem 1
-- Ítem 2
-- Ítem 3
+Después comencé a trabajar den el cuerpo del archivo, lo primero que hice fue hacer un <div> para trabajar más sencillo a su vez que le asignaba una clase y poder trabajar más fácil con los estilos.
 
-Hecho por [algunapersona](https://algunapersonaenestemundo)
+Dentro de este <div> utilicé otro tag llamado <table> para una distribución más fácil y sencilla.
 
->Este texto será una cita.
+Una vez escrito el tag <table> utilicé <tr> para hacer las distribuciones de fila en la tabla y dentro de los <tr> utilicé <td> para la distribución de las distintas columnas en las filas.
 
-> [!NOTE]
->Esto es una nota especial
+Dentro de los tag <td> se utilizaron otros tag como <p>, <h2>, <img>, entre otros, los cuáles me ayudaron a asignar más fácilmente la distribución de la información dentro del archivo.
 
-> [!TIP]
-> Esto es un tip
+Una vez diligenciada toda la información se cerraron todos los tag para que no hubiera ningún error en el código.
 
-> [!IMPORTANT]  
-> Esto es información importante
 
-> [!WARNING]  
-> Esto es una alerta
-
-> [!CAUTION]
-> Esto es una advertencia
+## [Explicación archivo CSS](styles/README.md)
