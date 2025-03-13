@@ -1,19 +1,20 @@
 ## Explicación archivo CSS
 
-Lo primero que se utilizó en el archivo fue la modificación del tag <body> para ajustar de mejor manera como se visualizaría el archivo:
-    "body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+Lo primero que se utilizó en el archivo fue la modificación del tag "body" para ajustar de mejor manera como se visualizaría el archivo:
+    
+"body {
+display: flex;
+justify-content: center;
+align-items: center;
 }"
 
 En este caso el display: flex lo que hizo fue que el cuerpo del archivo html se distribuyera de mejor forma y gracias a eso se le pudo dar un mejor manejo, el justifý-content y align-items sirvieron para alinear el contenido horizontalmente y verticalmente respectivamente al centro como índica la orden.
 
 Despues al nombre de la división que se creó en el archivo html se utilizó para la creación de bordes junto a los pixeles máximo que se podría expandir en la parte horizontal.
 
-En el tag <table> se asignó la clase cuerpo que se utilizó para darle una margen de 20 pixeles y que no esté pegada a los bordes.
+En el tag "table" se asignó la clase cuerpo que se utilizó para darle una margen de 20 pixeles y que no esté pegada a los bordes.
 
-En el caso de <td> se asignó un padding de 20 pixeles y se declaró que la información dentro de las tablas se alineará a la parte de arriba de estas mismas.
+En el caso de "td" se asignó un padding de 20 pixeles y se declaró que la información dentro de las tablas se alineará a la parte de arriba de estas mismas.
 
 Para la columna 1 al ser la única que utilizó imágenes se creó la clase "izquierda" la cúal me alinea los objetos al centro con la función justify-content y align items.
 
