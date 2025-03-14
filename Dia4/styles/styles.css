@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.formulario {
+    border: 2px solid black;
+    padding: 10px;
+    background-color:beige;
+    text-align: center;
+}
+.envio {
+    text-align: right;
+}
+.titulo {
+    text-align: center;
+}
+.parrafos {
+    white-space: pre-line;
+    text-align: justify;
+}
+.email{
+    text-align: justify;
+}
+.primero{
+    text-align: justify;
+}

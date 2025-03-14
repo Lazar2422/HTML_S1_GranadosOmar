@@ -1,37 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=ç, initial-scale=1.0">
     <title>Formulario de registro - Mi web</title>
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-    <form method="get" action="index.html">
-        <input type="text" name="nombre" placeholder="Nombre" maxlength="50">
-        <br>
-        <input type="text" name="apellido" placeholder="apellido" maxlength="50">
-        <br>
-        <label for="sexo">Selecione su sexo: </label>
-        <select>
-            <option value="Masculino">Masculino</option>
-            <option value="Femenino">Femenino</option>
-        </select>
-        <br>
-        <input type="email" name="correo" placeholder="example@a.com">
-        <br>
-        <input type="checkbox" name="ofertas" checked>Deseo recibir información sobre novedades y ofertas
-        <br>
-        <input type="checkbox" name="condicones" checked>Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos
-        <br>
-        <label name="poblacion">Poblacion</label>
-        <select>
-            <option name="Bucaramanga">Bucaramanga</option>
-            <option name="Giron">Giron</option>
-            <option name="Floridablanca">Floridablanca</option>
-            <option name="Piedecuesta">Piedecuesta</option>
-        </select>
-        <br>
-        <input type="submit" name="envio" placeholder="envio">
-    </form>
+    <div class="formulario">
+        <form method="post" action="">
+            <div class="titulo">
+                <h2>Formulario</h2>
+            </div>
+            <div class="primero">
+                Nombre<br><input type="text" name="nombre" placeholder="Nombre" maxlength="50">
+                <br>
+                <br>
+                Apellido<br><input type="text" name="apellido" placeholder="Apellido" maxlength="50">
+                <br>
+                <br>
+                <label for="sexo" class="genero">Sexo</label>
+                <select>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                </select>
+            <br>
+            <br>
+            <div class="email">
+                Correo<br><input type="email" name="correo" placeholder="example@a.com" class="email">
+            </div>
+            <br>
+            <label name="poblacion">Poblacion</label>
+            <select>
+                <option name="Bucaramanga">Bucaramanga</option>
+                <option name="Giron">Giron</option>
+                <option name="Floridablanca">Floridablanca</option>
+                <option name="Piedecuesta">Piedecuesta</option>
+            </select>
+            </div>
+            <div class="parrafos">
+                <input type="checkbox" name="ofertas" checked>Deseo recibir información sobre novedades y ofertas.
+                <input type="checkbox" name="condicones" checked>Declaro haber leído y aceptar las condiciones generales 
+                del programa y la normativa sobre protección de datos.
+            </div>
+            <br>
+            <div class="envio">
+                <input type="submit" name="envio">
+            </div>
+        </form>
+    </div>
 </body>
 </html>
+<!-- Desarrollado por: Omar Fernando Granados Parra TI: 1100957346-->
