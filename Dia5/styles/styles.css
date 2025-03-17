@@ -1,0 +1,213 @@
+body {
+    background-color: black;
+}
+.twitch1{
+    width: 1920px;
+    height: 1080px;
+}
+.busqueda{
+    top: 37px;
+    left: 63px;
+    width: 36px;
+    height: 36px;
+    justify-content: left;
+    align-items: start;
+    position: absolute;
+}
+.iniciar{
+    top: 30px;
+    left: 1695px;
+    width: 205px;
+    height: 54px;
+    position: absolute;
+}
+.login{
+    top: 48px;
+left: 1773px;
+width: 50px;
+height: 20px;
+    position: absolute;
+}
+.logo{
+    top: 227px;
+    left: 682px;
+    width: 556px;
+    height: 313px;
+    position: absolute;
+}
+.content{
+    top: 517px;
+left: 389px;
+width: 1151px;
+height: 60px;
+position: absolute;
+}
+.enjoy{
+    top: 608px;
+left: 380px;
+width: 1160px;
+height: 102px;
+position: absolute;
+}
+.rectangle2{
+    top: 755px;
+    left: 730px;
+    width: 458px;
+    height: 104px;
+    position: absolute;
+}
+.sign{
+    top: 787px;
+left: 780px;
+width: 360px;
+height: 40px;
+position: absolute;
+}
+.grupo2{
+    top: 1106px;
+left: 64px;
+width: 1792px;
+height: 567px;
+position: absolute;
+}
+.rectangle3{
+    top: 1717px;
+left: 64px;
+width: 1792px;
+height: 724px;
+position: absolute;
+}
+.dont{
+    top: 1773px;
+left: 135px;
+width: 1664px;
+height: 60px;
+position: absolute;
+}
+.rectangle4-1{
+    top: 1896px;
+left: 477px;
+width: 181px;
+height: 309px;
+position: absolute;
+}
+.rectangle4-2{
+    top: 1896px;
+left: 670px;
+width: 181px;
+height: 309px;
+position: absolute;
+}
+.rectangle4-3{
+    top: 1896px;
+left: 863px;
+width: 180px;
+height: 309px;
+position: absolute;
+}
+.rectangle4-4{
+    top: 1896px;
+left: 1055px;
+width: 181px;
+height: 309px;
+position: absolute;
+}
+.rectangle4-5{
+    top: 1896px;
+left: 1248px;
+width: 181px;
+height: 309px;
+position: absolute;
+}
+.yull{
+    top: 2286px;
+left: 207px;
+width: 1492px;
+height: 110px;
+position: absolute;
+}
+.rectangle3-1{
+    top: 2467px;
+left: 64px;
+width: 1792px;
+height: 567px;
+position: absolute;
+}
+.cancel{
+    top: 2546px;
+left: 560px;
+width: 800px;
+height: 60px;
+position: absolute;
+}
+.icon-cancel{
+    top: 2650px;
+left: 876px;
+width: 169px;
+height: 169px;
+position: absolute;
+}
+.services{
+    top: 2881px;
+left: 269px;
+width: 1382px;
+height: 88px;
+position: absolute;
+}
+.compatibles{
+    top: 3127px;
+left: 418px;
+width: 1118px;
+height: 125px;
+position: absolute;
+}
+.range{
+    top: 3296px;
+left: 181px;
+width: 1544px;
+height: 99px;
+position: absolute;
+}
+.flecha-izq{
+    top: 3689px;
+left: 305px;
+width: 19px;
+height: 27px;
+position: absolute;
+}
+.flecha-der{
+    top: 3702px;
+left: 1575px;
+width: 18px;
+height: 26px;
+transform: matrix(-1, 0, 0, -1, -1, -1);
+position: absolute;
+}
+.iphone{
+    top: 3606px;
+left: 386px;
+width: 256px;
+height: 219px;
+position: absolute;
+}
+.mac{
+    top: 3440px;
+left: 685px;
+width: 584px;
+height: 534px;
+position: absolute;
+}
+.pc{
+    top: 3587px;
+left: 1261px;
+width: 271px;
+height: 238px;
+position: absolute;
+}
+.grupo5{
+    top: 4088px;
+left: 543px;
+width: 831px;
+height: 25px;
+position: absolute;
+}
