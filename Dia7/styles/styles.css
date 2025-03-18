@@ -1,0 +1,160 @@
+@font-face {
+    font-family: "regular";
+    src: url(../font/open-regular.ttf);
+}
+@font-face {
+    font-family: "semibold";
+    src: url(../font/open-semibold.ttf);
+}
+.cuerpo{
+    background-image: linear-gradient(white, gray);
+    width: 1600px;
+    height: 1200px;
+}
+.rectangulo3{
+    top: 200px;
+left: 100px;
+width: 1400px;
+height: 800px;
+    position: relative;
+}
+.metrolinea__up{
+    top: 243px;
+left: 143px;
+width: 196px;
+height: 44px;
+position: absolute;
+}
+.line{
+    top: 303px;
+left: 841px;
+width: 146px;
+height: 1px;
+position: absolute;
+}
+.card{
+    top: 322px;
+left: 227px;
+width: 884px;
+height: 497px;
+position: absolute;
+}
+.shoping{
+    top: 252px;
+left: 1324px;
+width: 33px;
+height: 32px;
+position: absolute;
+}
+.line{
+    top: 303px;
+left: 841px;
+width: 146px;
+height: 2px;
+position: absolute;
+}
+.search{
+    top: 252px;
+left: 1224px;
+width: 27px;
+height: 27px;
+position: absolute;
+}
+.rectangle1{
+    top: 208px;
+left: 1400px;
+width: 110px;
+height: 800px;
+position: absolute;
+}
+.flechita1{
+    top: 240px;
+left: 1443px;
+width: 24px;
+height: 14px;
+position: absolute;
+}
+.flechita2{
+    top: 946px;
+left: 1443px;
+width: 24px;
+height: 14px;
+position: absolute;
+}
+.menucantidad{
+    top: 515px;
+left: 1443px;
+width: 23px;
+height: 187px;
+position: absolute;
+}
+.cantidad{
+    top: 349px;
+left: 1410px;
+width: 84px;
+height: 27px;
+position: absolute;
+color: white;
+font-size: 20px;
+font-family: "regular"
+}
+.saldo{
+    top: 215px;
+left: 1072px;
+width: 132px;
+height: 41px;
+position: absolute;
+font-size: 30px;
+font-family: "regular";
+color: black;
+}
+.compra{
+    top: 213px;
+left: 802px;
+width: 230px;
+height: 41px;
+position: absolute;
+font-size: 30px;
+font-family: "regular";
+}
+.rectangle2{
+    top: 847px;
+left: 1190px;
+width: 160px;
+height: 114px;
+position: absolute;
+}
+.metrolinea__down{
+    top: 876px;
+left: 1205px;
+width: 129px;
+height: 29px;
+position: absolute;
+}
+.comprar_down{
+    top: 887px;
+left: 1215px;
+width: 111px;
+height: 36px;
+position: absolute;
+font-size: 26px;
+font-family: "semibold";
+}
+.text_tarjeta{
+    top: 799px;
+left: 168px;
+width: 716px;
+height: 55px;
+position: absolute;
+font-size: 40px;
+font-family: "semibold";
+}
+.precio{
+    top: 884px;
+left: 170px;
+width: 160px;
+height: 37px;
+position: absolute;
+font-size: 27px;
+font-family: "semibold";
+}
