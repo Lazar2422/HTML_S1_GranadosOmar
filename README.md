@@ -7,6 +7,8 @@
 | 3 | [Día3](Dia3) |
 | 3 | [Día4](Dia4) |
 | 3 | [Día5](Dia5) |
+| 3 | [Día6](Dia6) |
+
 
 ### Instalaciones 
 Para utilizar esta documentación necesitarás descargar un editor de código.
