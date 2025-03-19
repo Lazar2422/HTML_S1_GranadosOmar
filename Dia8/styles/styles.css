@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "letra1";
+    src: url(../font/Barlow-Bold.ttf);
+}
+@font-face {
+    font-family: "letra2";
+    src: url(../font/open-sauce.one-semibold.ttf);
+}
+@font-face {
+    font-family: "letra3";
+    src: url(../font/PlayfairDisplay-Black.ttf);
+}
+p{
+    color: white;
+}
+body{
+    background-color: black;
+    width: 1920px;
+    height: 1080px;
+}
+.fondo_up{
+    position: relative;
+}
+.textlogo{
+    top: -100px;
+    font-size: 100px;
+    font-family: "letra1";
+    position: absolute;
+    left: 1200px;
+}
+.hoverhome{
+    top:-70px;
+    position: absolute;
+    font-family: "letra2";
+    font-size: 80px;
+    left: 3800px;
+}
+.hoverabout{
+    top:-70px;
+    position: absolute;
+    font-family: "letra2";
+    font-size: 80px;
+    left: 4200px;
+}
+.hoverhome:hover{
+    cursor: pointer;
+    text-decoration: underline #ce9e5a;
+    font-size: 80px;
+}
+.hoverabout:hover{
+    cursor: pointer;
+    text-decoration: underline #ce9e5a;
+    font-size: 80px;
+}
+.hovermenu{
+    top:-70px;
+    position: absolute;
+    font-family: "letra2";
+    font-size: 80px;
+    left: 4600px;
+}
+.hovermenu:hover{
+    cursor: pointer;
+    text-decoration: underline #ce9e5a;
+    font-size: 80px;
+}
+.hovercontact{
+    top:-70px;
+    position: absolute;
+    font-family: "letra2";
+    font-size: 80px;
+    left: 5000px;
+}
+.hovercontact:hover{
+    cursor: pointer;
+    text-decoration: underline #ce9e5a;
+    font-size: 80px;
+}
+.start_day{
+    font-size: 300px;
+    font-family: "letra3";
+    position: absolute;
+    top: 500px;
+    left: 1550px;
+    transform: scaleX(0.9);
+    letter-spacing: 20px;
+}
+.with{
+    font-size: 300px;
+    font-family: "letra3";
+    position: absolute;
+    top: 2900px;
+    left: 1400px;
+    transform: scaleX(0.9);
+    letter-spacing: 20px;
+}
+.shop_now{
+    position: absolute;
+    background-color: #ce9e5a;
+    width: 550px;
+    height: 150px;
+    left: 2700px;
+    top: 3700px;
+    font-size: 60px;
+    font-family: "letra2";
+}
+.shop_now:hover{
+    cursor: pointer;
+}
