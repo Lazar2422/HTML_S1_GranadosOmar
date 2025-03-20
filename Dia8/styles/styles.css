@@ -20,90 +20,470 @@ body{
 }
 .fondo_up{
     position: relative;
+    width: 1920px;
+    height: 1220px;
 }
 .textlogo{
-    top: -100px;
-    font-size: 100px;
+    font-size: 50px;
     font-family: "letra1";
     position: absolute;
-    left: 1200px;
+    text-align: top;
+    top: 0px;
+    margin: 0px;
+    left: 350px;
 }
 .hoverhome{
-    top:-70px;
     position: absolute;
     font-family: "letra2";
-    font-size: 80px;
-    left: 3800px;
+    top: 10px;
+    margin: 0px;
+    font-size: 30px;
+    left: 1170px;
 }
 .hoverabout{
-    top:-70px;
     position: absolute;
     font-family: "letra2";
-    font-size: 80px;
-    left: 4200px;
+    top: 10px;
+    margin: 0px;
+    font-size: 30px;
+    left: 1310px;
 }
 .hoverhome:hover{
     cursor: pointer;
     text-decoration: underline #ce9e5a;
-    font-size: 80px;
 }
 .hoverabout:hover{
     cursor: pointer;
     text-decoration: underline #ce9e5a;
-    font-size: 80px;
 }
 .hovermenu{
-    top:-70px;
     position: absolute;
     font-family: "letra2";
-    font-size: 80px;
-    left: 4600px;
+    top: 10px;
+    margin: 0px;
+    font-size: 30px;
+    left: 1450px;
 }
 .hovermenu:hover{
     cursor: pointer;
     text-decoration: underline #ce9e5a;
-    font-size: 80px;
 }
 .hovercontact{
-    top:-70px;
     position: absolute;
     font-family: "letra2";
-    font-size: 80px;
-    left: 5000px;
+    top: 10px;
+    margin: 0px;
+    font-size: 30px;
+    left: 1570px;
 }
 .hovercontact:hover{
     cursor: pointer;
     text-decoration: underline #ce9e5a;
-    font-size: 80px;
 }
 .start_day{
-    font-size: 300px;
+    font-size: 100px;
     font-family: "letra3";
     position: absolute;
-    top: 500px;
-    left: 1550px;
-    transform: scaleX(0.9);
-    letter-spacing: 20px;
+    transform: scaleX(0.85);
+    top: 220px;
+    margin: 0px;
+    left: 520px;
+    word-spacing: 15px;
 }
 .with{
-    font-size: 300px;
+    font-size: 100px;
     font-family: "letra3";
     position: absolute;
-    top: 2900px;
-    left: 1400px;
-    transform: scaleX(0.9);
-    letter-spacing: 20px;
+    transform: scaleX(0.85);
+    top: 1020px;
+    margin: 0px;
+    left: 480px;
+    word-spacing: 15px;
 }
 .shop_now{
     position: absolute;
     background-color: #ce9e5a;
-    width: 550px;
-    height: 150px;
-    left: 2700px;
-    top: 3700px;
-    font-size: 60px;
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
     font-family: "letra2";
+    top: 1200px;
+    margin: 0px;
+    left: 900px;
 }
 .shop_now:hover{
     cursor: pointer;
+}
+.coffee2{
+    position: absolute;
+    top: 1550px;
+    margin: 0px;
+    left: 0px;
+    width: 820px;
+}
+.line_up{
+    position: absolute;
+    top: 1700px;
+    margin: 0px;
+    left: 1020px;
+    width: 150px;
+}
+.story{
+    font-size: 100px;
+    font-family: "letra3";
+    position: absolute;
+    top: 1620px;
+    margin: 0px;
+    left: 1200px;
+}
+.story::first-letter{
+    font-size: 120px;
+}
+.story2{
+    font-size: 100px;
+    font-family: "letra3";
+    position: absolute;
+    top: 1620px;
+    margin: 0px;
+    left: 1470px;
+}
+.story2::first-letter{
+    font-size: 120px;
+}
+.lorem_story{
+    font-size: 20px;
+    font-family: "letra2";
+    position: absolute;
+    top: 1800px;
+    margin: 0px;
+    left: 1200px;
+    width: 700px;
+}
+.learn_more1{
+    position: absolute;
+    background-color: #ce9e5a;
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+    font-family: "letra2";
+    top: 1900px;
+    margin: 0px;
+    left: 1200px;
+}
+.learn_more1:hover{
+    cursor: pointer;
+}
+.enjoy_coffee{
+    position: absolute;
+    top: 2400px;
+    margin: 0px;
+    font-family: "letra3";
+    left: 200px;
+    width: 500px;
+    font-size: 60px;
+}
+.lorem_enjoy{
+    font-size: 20px;
+    font-family: "letra2";
+    position: absolute;
+    top: 2730px;
+    margin: 0px;
+    left: 200px;
+    width: 600px;
+}
+.learn_more2{
+    position: absolute;
+    background-color: #ce9e5a;
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+    font-family: "letra2";
+    top: 2790px;
+    margin: 0px;
+    left: 200px;
+}
+.learn_more2:hover{
+    cursor: pointer;
+}
+.coffee3{
+    position: absolute;
+    top: 2350px;
+    margin: 0px;
+    left: 1200px;
+    width: 600px;
+}
+.product{
+    font-size: 80px;
+    font-family: "letra3";
+    position: absolute;
+    top: 3200px;
+    margin: 0px;
+    left: 100px;
+}
+.product::first-letter{
+    font-size: 100px;
+}
+.coffee4{
+    position: absolute;
+    top: 3430px;
+    margin: 0px;
+    left: 250px;
+    width: 150px;
+}
+.product1{
+    border: 4px solid #ce9e5a;
+    position: absolute;
+    top: 3500px;
+    left: 120px;
+    padding: 150px;
+    height: 240px;
+    width: 90px;
+}
+.mocha1{
+    font-size: 30px;
+    font-family: "letra1";
+    position: absolute;
+    left: 160px;
+    top: 80px;
+}
+.espreso1{
+    font-size: 20px;
+    font-family: "letra2";
+    position: absolute;
+    left: 130px;
+    top: 230px;
+}
+.chocolate1{
+    font-size: 20px;
+    font-family: "letra2";
+    position: absolute;
+    left: 130px;
+    top: 280px;
+}
+.milk1{
+    font-size: 20px;
+    font-family: "letra2";
+    position: absolute;
+    left: 130px;
+    top: 330px;
+}
+.learn_more3{
+    position: absolute;
+    background-color: #ce9e5a;
+    width: 180px;
+    height: 50px;
+    font-size: 25px;
+    font-family: "letra2";
+    top: 450px;
+    margin: 0px;
+    left: 110px;
+}
+.learn_more3:hover{
+    cursor: pointer;
+}
+.coffee5{
+    position: absolute;
+    top: 3430px;
+    margin: 0px;
+    left: 950px;
+    width: 150px;
+}
+.product2{
+    border: 4px solid #ce9e5a;
+    position: absolute;
+    top: 3500px;
+    left: 820px;
+    padding: 150px;
+    height: 240px;
+    width: 90px;
+}
+.mocha2{
+    font-size: 30px;
+    font-family: "letra1";
+    position: absolute;
+    left: 160px;
+    top: 80px;
+}
+.espreso2{
+    font-size: 20px;
+    font-family: "letra2";
+    position: absolute;
+    left: 130px;
+    top: 230px;
+}
+.chocolate2{
+    font-size: 20px;
+    font-family: "letra2";
+    position: absolute;
+    left: 130px;
+    top: 280px;
+}
+.milk2{
+    font-size: 20px;
+    font-family: "letra2";
+    position: absolute;
+    left: 130px;
+    top: 330px;
+}
+.learn_more4{
+    position: absolute;
+    background-color: #ce9e5a;
+    width: 180px;
+    height: 50px;
+    font-size: 25px;
+    font-family: "letra2";
+    top: 450px;
+    margin: 0px;
+    left: 110px;
+}
+.learn_more4:hover{
+    cursor: pointer;
+}
+.coffee6{
+    position: absolute;
+    top: 3430px;
+    margin: 0px;
+    left: 1650px;
+    width: 150px;
+}
+.product3{
+    border: 4px solid #ce9e5a;
+    position: absolute;
+    top: 3500px;
+    left: 1520px;
+    padding: 150px;
+    height: 240px;
+    width: 90px;
+}
+.mocha3{
+    font-size: 30px;
+    font-family: "letra1";
+    position: absolute;
+    left: 160px;
+    top: 80px;
+}
+.espreso3{
+    font-size: 20px;
+    font-family: "letra2";
+    position: absolute;
+    left: 130px;
+    top: 230px;
+}
+.chocolate3{
+    font-size: 20px;
+    font-family: "letra2";
+    position: absolute;
+    left: 130px;
+    top: 280px;
+}
+.milk3{
+    font-size: 20px;
+    font-family: "letra2";
+    position: absolute;
+    left: 130px;
+    top: 330px;
+}
+.learn_more5{
+    position: absolute;
+    background-color: #ce9e5a;
+    width: 180px;
+    height: 50px;
+    font-size: 25px;
+    font-family: "letra2";
+    top: 450px;
+    margin: 0px;
+    left: 110px;
+}
+.learn_more5:hover{
+    cursor: pointer;
+}
+.line_semidown{
+    position: absolute;
+    top: 4130px;
+    margin: 0px;
+    left: 680px;
+    width: 700px;
+    border-color: #ce9e5a;
+}
+.about{
+    font-size: 40px;
+    font-family: "letra1";
+    position: absolute;
+    top: 4330px;
+    margin: 0px;
+    left: 450px;
+}
+.about span{
+    color: #ce9e5a;
+}
+.lorem_about{
+    font-size: 15px;
+    font-family: "letra2";
+    position: absolute;
+    top: 4410px;
+    margin: 0px;
+    left: 320px;
+    width: 400px;
+    text-align: center;
+}
+.contact{
+    font-size: 40px;
+    font-family: "letra1";
+    position: absolute;
+    top: 4330px;
+    margin: 0px;
+    left: 930px;
+}
+.contact span{
+    color: #ce9e5a;
+}
+.lorem_contact{
+    font-size: 15px;
+    font-family: "letra2";
+    position: absolute;
+    top: 4410px;
+    margin: 0px;
+    left: 830px;
+    width: 400px;
+    text-align: center;
+}
+.opening{
+    font-size: 40px;
+    font-family: "letra1";
+    position: absolute;
+    top: 4330px;
+    margin: 0px;
+    left: 1400px;
+}
+.opening span{
+    color: #ce9e5a;
+}
+.lorem_opening{
+    font-size: 15px;
+    font-family: "letra2";
+    position: absolute;
+    top: 4410px;
+    margin: 0px;
+    left: 1340px;
+    width: 400px;
+    text-align: center;
+}
+.line_down{
+    position: absolute;
+    top: 4620px;
+    margin: 0px;
+    left: 680px;
+    width: 700px;
+    border-color: #ce9e5a;
+}
+.footer{
+    font-size: 20px;
+    font-family: "letra1";
+    position: absolute;
+    top: 4650px;
+    margin: 0px;
+    left: 880px;
+}
+.footer span{
+    color: #ce9e5a;
 }

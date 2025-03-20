@@ -1,6 +1,6 @@
-# Día 4
+# Día 6
 
-Aquí verás la explicación de el ejercicio realizado para el día número 4 basado en HTML/CSS
+Aquí verás la explicación de el ejercicio realizado para el día número 6 basado en HTML/CSS
 
 ## Instalación
 
