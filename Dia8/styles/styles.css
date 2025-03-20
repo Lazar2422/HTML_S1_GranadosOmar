@@ -89,6 +89,7 @@ body{
     margin: 0px;
     left: 520px;
     word-spacing: 15px;
+    width: 1000px;
 }
 .with{
     font-size: 100px;
@@ -99,6 +100,7 @@ body{
     margin: 0px;
     left: 480px;
     word-spacing: 15px;
+    width: 1000px;
 }
 .shop_now{
     position: absolute;
@@ -454,6 +456,7 @@ body{
     top: 4330px;
     margin: 0px;
     left: 1400px;
+    width: 400px;
 }
 .opening span{
     color: #ce9e5a;

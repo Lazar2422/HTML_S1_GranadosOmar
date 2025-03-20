@@ -96,7 +96,7 @@ font-family: "regular"
 .saldo{
     top: 215px;
 left: 1072px;
-width: 132px;
+width: 400px;
 height: 41px;
 position: absolute;
 font-size: 30px;
@@ -106,7 +106,7 @@ color: black;
 .compra{
     top: 213px;
 left: 802px;
-width: 230px;
+width: 400px;
 height: 41px;
 position: absolute;
 font-size: 30px;
@@ -139,7 +139,7 @@ font-family: "semibold";
 .text_tarjeta{
     top: 600px;
 left: 401px;
-width: 800px;
+width: 2000px;
 height: 55px;
 position: absolute;
 font-size: 40px;
@@ -148,7 +148,7 @@ font-family: "semibold";
 .precio{
     top: 677px;
 left: 583px;
-width: 329px;
+width: 1000px;
 height: 37px;
 position: absolute;
 font-size: 27px;
@@ -157,7 +157,7 @@ font-family: "semibold";
 .saldo_escogido{
 top: 744px;
 left: 639px;
-width: 200px;
+width: 2000px;
 height: 37px;
 position: absolute;
 font-size: 27px;
