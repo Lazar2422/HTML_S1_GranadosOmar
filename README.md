@@ -10,6 +10,7 @@
 | 6 | [Día6](Dia6) |
 | 7 | [Día7](Dia7) |
 | 8 | [Día8](Dia8) |
+| 8 | [Día9](Dia9) |
 
 
 ### Instalaciones 
