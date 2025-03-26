@@ -1,6 +1,6 @@
 # Día 11
 
-Aquí verás la explicación de el ejercicio realizado para el día número 7 basado en HTML/CSS
+Aquí verás la explicación de el ejercicio realizado para el día número 11 basado en HTML/CSS
 
 ## Instalación
 
