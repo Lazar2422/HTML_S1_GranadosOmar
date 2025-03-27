@@ -1,0 +1,26 @@
+html,body{
+    margin: 0;
+    image-rendering: pixelated;
+}
+@keyframes mover {
+    0% {transform: translateX(0%);}
+    100% {transform: translateX(100%);}
+}
+#fondo{
+    width: 100vw;
+    height: 80vw;
+    position: relative;
+}
+#sol{
+    width: 30vw;
+    height: 18vw;
+    position: relative;
+    margin: auto;
+    bottom: 80vw;
+    left: 75vw;
+}
+#nube{
+    background-image: url(../imagenes/nube.png);
+    width: 80vw;
+    height: 80vw;
+}
