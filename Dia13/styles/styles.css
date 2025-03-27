@@ -1,10 +1,13 @@
 html,body{
     margin: 0;
+    width: 100vw;
     image-rendering: pixelated;
 }
 @keyframes mover {
-    0% {transform: translateX(0%);}
-    100% {transform: translateX(100%);}
+    0%{left:-20vw;}
+    20%{left: 50vw;}
+    80%{left: 50vw;}
+    100%{left: 120vw;}
 }
 #fondo{
     width: 100vw;
@@ -20,7 +23,10 @@ html,body{
     left: 75vw;
 }
 #nube{
-    background-image: url(../imagenes/nube.png);
-    width: 80vw;
-    height: 80vw;
+    width: 20vw;
+    height: 10vw;
+    position: relative;
+    bottom:80vw;
+    left: -20vw;
+    animation: mover 10s linear;
 }
