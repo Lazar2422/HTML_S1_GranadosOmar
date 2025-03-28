@@ -21,6 +21,9 @@ html,body{
     margin: auto;
     bottom: 80vw;
     left: 75vw;
+    opacity: 40%;
+    animation: aclarecer 3s linear forwards;
+    animation-delay: 10s;
 }
 #nube{
     width: 20vw;
@@ -29,4 +32,102 @@ html,body{
     bottom:80vw;
     left: -20vw;
     animation: mover 10s linear;
+}
+.gota{
+    position: relative;
+    bottom: 80vw;
+    left: 53vw;
+    width: 2vw;
+    height: 3vw;
+    opacity: 0%;
+}
+#gota1{
+    animation: gota 1s linear 6;
+    animation-delay: 2.5s;
+}
+#gota2{
+    animation: gota 0.4s linear 14;
+    animation-delay: 2.5s;
+}
+#gota3{
+    animation: gota 0.8s linear 7;
+    animation-delay: 2.5s;
+}
+#gota4{
+    animation: gota 0.6s linear 9;
+    animation-delay: 2.5s;
+}
+#gota5{
+    animation: gota 0.7s linear 8;
+    animation-delay: 2.5s;
+}	
+#gota6{
+    animation: gota 0.5s linear 11;
+    animation-delay: 2.5s;
+}
+@keyframes gota {
+    0%{opacity: 100%; transform: translateY(0px);}
+    100%{transform: translateY(50vw);}
+}
+@keyframes aclarecer{
+    0%{opacity: 40%;}
+    100%{opacity: 100%;}
+}
+#flor{
+    width: 10vw;
+    height: 10vw;
+    position: relative;
+    bottom: 39vw;
+    opacity: 0%;
+    left: 58vw;
+    animation: florecer 1s linear forwards;
+    animation-delay: 12s;
+}
+@keyframes florecer{
+    0%{opacity:100%;}
+    100%{opacity: 100%; bottom: 47vw;}
+}
+#pedro1{
+    width: 15vw;
+    height: 8vw;
+    position: relative;
+    bottom: 87vw;
+    opacity: 0%;
+    left: 57vw;
+    animation: pedro1 4s linear;
+    animation-delay: 12s;
+}
+#pedro2{
+    width: 15vw;
+    height: 15vw;
+    position: relative;
+    opacity: 0%;
+    bottom: 85vw;
+    left: 42vw;
+    animation: pedro2 1s linear 5;
+    animation-delay: 3s;
+}
+@keyframes pedro2{
+    0%{opacity: 100%;}
+    100%{opacity: 100%;}
+}
+@keyframes pedro1{
+    0%{opacity: 100%; transform: translateY(0vw);}
+    20%{opacity: 100%; transform: translateY(0vw);}
+    90%{opacity: 100%; transform: translateY(25vw);}
+    100%{opacity: 100%; transform: translateY(25vw);}
+}
+#cat{
+    position: relative;
+    width: 15vw;
+    height: 15vw;
+    bottom: 62vw;
+    opacity: 0%;
+    left: 28vw;
+    animation: cat 1s linear forwards;
+    animation-delay: 16s;
+}
+@keyframes cat{
+    0%{opacity: 100%;}
+    100%{opacity: 100%;}
 }
