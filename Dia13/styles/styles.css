@@ -19,23 +19,24 @@ html,body{
     height: 18vw;
     position: relative;
     margin: auto;
-    bottom: 80vw;
+    bottom: 90vw;
     left: 75vw;
     opacity: 40%;
     animation: aclarecer 3s linear forwards;
-    animation-delay: 10s;
+    animation-delay: 14s;
 }
 #nube{
     width: 20vw;
     height: 10vw;
     position: relative;
-    bottom:80vw;
+    bottom:100vw;
     left: -20vw;
     animation: mover 10s linear;
+    animation-delay: 4s;
 }
 .gota{
     position: relative;
-    bottom: 80vw;
+    bottom: 100vw;
     left: 53vw;
     width: 2vw;
     height: 3vw;
@@ -43,27 +44,27 @@ html,body{
 }
 #gota1{
     animation: gota 1s linear 6;
-    animation-delay: 2.5s;
+    animation-delay: 6.5s;
 }
 #gota2{
     animation: gota 0.4s linear 14;
-    animation-delay: 2.5s;
+    animation-delay: 6.5s;
 }
 #gota3{
     animation: gota 0.8s linear 7;
-    animation-delay: 2.5s;
+    animation-delay: 6.5s;
 }
 #gota4{
     animation: gota 0.6s linear 9;
-    animation-delay: 2.5s;
+    animation-delay: 6.5s;
 }
 #gota5{
     animation: gota 0.7s linear 8;
-    animation-delay: 2.5s;
+    animation-delay: 6.5s;
 }	
 #gota6{
     animation: gota 0.5s linear 11;
-    animation-delay: 2.5s;
+    animation-delay: 6.5s;
 }
 @keyframes gota {
     0%{opacity: 100%; transform: translateY(0px);}
@@ -77,35 +78,35 @@ html,body{
     width: 10vw;
     height: 10vw;
     position: relative;
-    bottom: 39vw;
+    bottom: 45vw;
     opacity: 0%;
     left: 58vw;
     animation: florecer 1s linear forwards;
-    animation-delay: 12s;
+    animation-delay: 16s;
 }
 @keyframes florecer{
     0%{opacity:100%;}
-    100%{opacity: 100%; bottom: 47vw;}
+    100%{opacity: 100%; bottom: 60vw;}
 }
 #pedro1{
     width: 15vw;
     height: 8vw;
     position: relative;
-    bottom: 87vw;
+    bottom: 100vw;
     opacity: 0%;
     left: 57vw;
     animation: pedro1 4s linear;
-    animation-delay: 12s;
+    animation-delay: 16s;
 }
 #pedro2{
     width: 15vw;
     height: 15vw;
     position: relative;
     opacity: 0%;
-    bottom: 85vw;
+    bottom: 100vw;
     left: 42vw;
-    animation: pedro2 1s linear 5;
-    animation-delay: 3s;
+    animation: pedro2 1s linear 6;
+    animation-delay: 7s;
 }
 @keyframes pedro2{
     0%{opacity: 100%;}
@@ -121,13 +122,41 @@ html,body{
     position: relative;
     width: 15vw;
     height: 15vw;
-    bottom: 62vw;
+    bottom: 72vw;
     opacity: 0%;
     left: 28vw;
     animation: cat 1s linear forwards;
-    animation-delay: 16s;
+    animation-delay: 20s;
 }
 @keyframes cat{
     0%{opacity: 100%;}
     100%{opacity: 100%;}
+}
+@keyframes start {
+    0%{opacity: 100%;}
+    100%{opacity: 100%;}
+}
+h1{
+    position: relative;
+    bottom: 60vw;
+    left: 50vw;
+}
+.star3{
+    opacity: 0%;
+    animation: start 1s linear;
+}
+.star2{
+    opacity: 0%;
+    animation: start 1s linear;
+    animation-delay: 1s;
+}
+.star1{
+    opacity: 0%;
+    animation: start 1s linear;
+    animation-delay: 2s;
+}
+.start{
+    opacity: 0%;
+    animation: start 1s linear;
+    animation-delay: 3s;
 }
